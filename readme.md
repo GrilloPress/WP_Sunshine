@@ -1,13 +1,21 @@
-# North of England Breech Birth Conference 2017
+# Nursery Website
 
 Things to set up:
 
-- Sass and compass for styles
-- Eventbrite event/plugin
-- Eventbrite to Google Sheet connector
-- Add piklist theme engine
-- Update template parts structure to views folder and plugin/functions.php stuff to lib folder
+- theme look and feel
+- Home page
+- Custom FAQ post type
+- Gallery image category page
+- contact page
+- post page
+- page template
+- news page
+- search page
 
 ## branding
 
-color: #18bc9c
+color: #2b90d9 blue
+       #d9e1e8 gray
+       #9baec8 blue-gray
+       #282c37 black
+       #ffc952 orangey yellow
