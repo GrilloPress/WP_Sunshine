@@ -8840,30 +8840,44 @@ h1, h2, h3, h4 {
   background-color: white;
 }
 
-/* line 1, sass/_sidebars.scss */
+/* line 3, sass/_sidebars.scss */
+#secondary {
+  background-color: #ededed;
+  padding: 0.8em;
+  margin-top: 5.3em;
+}
+
+/* line 11, sass/_sidebars.scss */
+h3.widget-title {
+  color: #394956;
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+/* line 23, sass/_sidebars.scss */
 .navbar.navbar-static .navbar-header {
   float: left;
 }
 
-/* line 5, sass/_sidebars.scss */
+/* line 27, sass/_sidebars.scss */
 .navbar .navbar-toggle.toggle-left {
   float: left;
   margin-left: 15px;
 }
 
-/* line 10, sass/_sidebars.scss */
+/* line 32, sass/_sidebars.scss */
 .navbar .navbar-toggle.toggle-right {
   float: right;
   margin-right: 15px;
 }
 
-/* line 15, sass/_sidebars.scss */
+/* line 37, sass/_sidebars.scss */
 .navbar .navbar-toggle.toggle-sidebar, [data-toggle="sidebar"] {
   display: block;
 }
 
 /* sidebar settings */
-/* line 20, sass/_sidebars.scss */
+/* line 42, sass/_sidebars.scss */
 .sidebar {
   position: fixed;
   padding: 20px;
@@ -8876,28 +8890,28 @@ h1, h2, h3, h4 {
   max-height: none;
   overflow: auto;
 }
-/* line 32, sass/_sidebars.scss */
+/* line 54, sass/_sidebars.scss */
 .sidebar a {
   color: #abbbd1;
 }
 
-/* line 39, sass/_sidebars.scss */
+/* line 61, sass/_sidebars.scss */
 .nav > li > a:hover, .nav > li > a:focus {
   background-color: #577084;
 }
 
-/* line 45, sass/_sidebars.scss */
+/* line 67, sass/_sidebars.scss */
 .sidebar-left {
   left: 0;
 }
 
-/* line 49, sass/_sidebars.scss */
+/* line 71, sass/_sidebars.scss */
 .sidebar-right {
   right: 0;
 }
 
 /* css to override hiding the sidebar according to different screen sizes */
-/* line 54, sass/_sidebars.scss */
+/* line 76, sass/_sidebars.scss */
 .row .sidebar.sidebar-left.sidebar-xs-show {
   left: 0;
   -webkit-transform: translate3d(0, 0, 0);
@@ -8906,7 +8920,7 @@ h1, h2, h3, h4 {
 }
 
 /*right sidebar is untested */
-/* line 62, sass/_sidebars.scss */
+/* line 84, sass/_sidebars.scss */
 .row .sidebar.sidebar-right.sidebar-xs-show {
   right: 0;
   -webkit-transform: translate3d(0, 0, 0);
@@ -8915,7 +8929,7 @@ h1, h2, h3, h4 {
 }
 
 @media (min-width: 768px) {
-  /* line 70, sass/_sidebars.scss */
+  /* line 92, sass/_sidebars.scss */
   .row .sidebar.sidebar-left.sidebar-sm-show {
     left: 0;
     -webkit-transform: translate3d(0, 0, 0);
@@ -8924,7 +8938,7 @@ h1, h2, h3, h4 {
   }
 
   /*right sidebar is untested */
-  /* line 78, sass/_sidebars.scss */
+  /* line 100, sass/_sidebars.scss */
   .row .sidebar.sidebar-right.sidebar-sm-show {
     right: 0;
     -webkit-transform: translate3d(0, 0, 0);
@@ -8933,7 +8947,7 @@ h1, h2, h3, h4 {
   }
 }
 @media (min-width: 992px) {
-  /* line 87, sass/_sidebars.scss */
+  /* line 109, sass/_sidebars.scss */
   .row .sidebar.sidebar-left.sidebar-md-show {
     left: 0;
     -webkit-transform: translate3d(0, 0, 0);
@@ -8941,7 +8955,7 @@ h1, h2, h3, h4 {
     -moz-transform: none;
   }
 
-  /* line 93, sass/_sidebars.scss */
+  /* line 115, sass/_sidebars.scss */
   .row .sidebar.sidebar-right.sidebar-md-show {
     right: 0;
     -webkit-transform: translate3d(0, 0, 0);
@@ -8950,7 +8964,7 @@ h1, h2, h3, h4 {
   }
 }
 @media (min-width: 1170px) {
-  /* line 102, sass/_sidebars.scss */
+  /* line 124, sass/_sidebars.scss */
   .row .sidebar.sidebar-left.sidebar-lg-show {
     left: 0;
     -webkit-transform: translate3d(0, 0, 0);
@@ -8958,7 +8972,7 @@ h1, h2, h3, h4 {
     -moz-transform: none;
   }
 
-  /* line 108, sass/_sidebars.scss */
+  /* line 130, sass/_sidebars.scss */
   .row .sidebar.sidebar-right.sidebar-lg-show {
     right: 0;
     -webkit-transform: translate3d(0, 0, 0);
@@ -8967,7 +8981,7 @@ h1, h2, h3, h4 {
   }
 }
 /* animation class - optional: without it the sidebar would just pop in and out*/
-/* line 117, sass/_sidebars.scss */
+/* line 139, sass/_sidebars.scss */
 .sidebar-animate {
   -webkit-transition: -webkit-transform 300ms ease;
   -moz-transition: -moz-transform 300ms ease;
@@ -8975,14 +8989,14 @@ h1, h2, h3, h4 {
 }
 
 /* Left panel positioning classes */
-/* line 124, sass/_sidebars.scss */
+/* line 146, sass/_sidebars.scss */
 .sidebar.sidebar-left {
   -webkit-transform: translate3d(-100%, 0, 0);
   -moz-transform: translate3d(-100%, 0, 0);
   transform: translate3d(-100%, 0, 0);
 }
 
-/* line 130, sass/_sidebars.scss */
+/* line 152, sass/_sidebars.scss */
 .sidebar.sidebar-left.sidebar-open {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
