@@ -9,7 +9,7 @@ get_header(); ?>
 
 	<div id="primary">
 
-      <main id="main" class="col-md-6 col-md-offset-2" role="main">
+      <main id="main" class="col-md-6 col-md-offset-2 col-sm-7" role="main">
 
       <?php if ( have_posts() ) : ?>
 
@@ -40,7 +40,7 @@ get_header(); ?>
       <?php endif; ?>
 
       </main><!-- #main-->
-     <aside class="col-md-3 col-md-offset-1 col-sm-4">
+     <aside class="col-md-3 col-md-offset-1 col-sm-4 col-sm-offset-1">
         <?php get_sidebar(); ?>
       </aside>
     </div> <!-- #primary -->
