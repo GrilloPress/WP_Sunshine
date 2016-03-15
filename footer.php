@@ -12,8 +12,7 @@
     </div><!-- #content -->
 
     <footer id="colophon" class="site-footer" role="contentinfo">
-      <div class="site-info container">
-        <div class="row">
+      <div class="site-info">
           <div id="widget-footer">
 		        <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer1') ) : ?>
 		        <?php endif; ?>
@@ -24,10 +23,10 @@
             <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer4') ) : ?>
 		        <?php endif; ?>
 		      </div>
-        </div>
         
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-10 col-md-offset-2">
+            <hr>
             <p>&copy; Sheffield Teaching Hospitals NHS Foundation Trust</p>
           </div>
         </div>
