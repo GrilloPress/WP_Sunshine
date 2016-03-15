@@ -14,8 +14,10 @@ Things to set up:
 
 ## branding
 
-color: #2b90d9 blue
-       #d9e1e8 gray
-       #9baec8 blue-gray
-       #282c37 black
-       #ffc952 orangey yellow
+color: 
+- #2b90d9 blue
+- #d9e1e8 gray 
+- #9baec8 blue-gray
+- #282c37 black
+- #ffc952 orangey yellow
+- #364760 dark blue

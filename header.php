@@ -42,29 +42,30 @@
 <body <?php body_class(); ?>>
   
   <header role="banner">
-				
-			<div class="navbar navbar-default">
-				<div class="container">
-          
-					<div class="navbar-header">
-            <a class="navbar-brand" title="<?php echo get_bloginfo('description'); ?>" href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a>
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-						</button>
-					</div>
-
-					<div class="collapse navbar-collapse navbar-responsive-collapse">
+    
+   <!-- Fixed navbar -->
+    <div class="navbar navbar-static navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle toggle-left hidden-md hidden-lg" data-toggle="sidebar" data-target=".sidebar-left">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" title="<?php echo get_bloginfo('description'); ?>" href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a>
+        </div>
+      </div>
+    </div>
 						<?php wp_bootstrap_main_nav(); ?>
-					</div>
 
-				</div> <!-- end .container -->
-			</div> <!-- end .navbar -->
-		
 		</header> <!-- end header -->
   
   
-<div id="page" class="hfeed site">
-	<div id="content" class="site-content">
+<div id="page" class="hfeed site container">
+	<div id="content" class="site-content row">
+    <div class="col-xs-7 col-sm-3 col-md-2 sidebar sidebar-left sidebar-animate sidebar-md-show">
+       <ul class="nav navbar-stacked">
+         <?php wp_bootstrap_main_nav(); ?>
+      </ul>
+    </div>
