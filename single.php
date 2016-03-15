@@ -7,9 +7,9 @@
 
 get_header(); ?>
 
-	<div id="primary" class="container">
-    <div class="row">
-      <main id="main" class="col-md-8 col-sm-8" role="main">
+	<div id="primary">
+
+      <main id="main" class="col-md-6 col-md-offset-2" role="main">
 
         <?php while ( have_posts() ) : the_post(); ?>
 
@@ -21,10 +21,10 @@ get_header(); ?>
 
         </main><!-- #main .container -->
       
-      <aside class="col-md-4 col-sm-4">
+      <aside class="col-md-3 col-md-offset-1 col-sm-4">
         <?php get_sidebar(); ?>
       </aside>
     </div>
-	</div><!-- #primary-->
+
 
 <?php get_footer(); ?>
