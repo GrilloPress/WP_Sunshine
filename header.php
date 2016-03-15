@@ -57,15 +57,11 @@
         </div>
       </div>
     </div>
-						<?php wp_bootstrap_main_nav(); ?>
-
 		</header> <!-- end header -->
   
   
 <div id="page" class="hfeed site container">
 	<div id="content" class="site-content row">
     <div class="col-xs-7 col-sm-3 col-md-2 sidebar sidebar-left sidebar-animate sidebar-md-show">
-       <ul class="nav navbar-stacked">
          <?php wp_bootstrap_main_nav(); ?>
-      </ul>
     </div>
