@@ -27,6 +27,11 @@
         <div class="row">
           <div class="col-md-10 col-md-offset-2">
             <hr>
+            <p class="pull-right">
+              <a href="http://www.sth.nhs.uk" title="Homepage for the Sheffield Teaching Hospitals NHS Foundation Trust" target="_blank">
+                <img src="<?php echo get_template_directory_uri() . '/images/sth-trans.png' ;?>" >
+              </a>
+            </p>
             <p>&copy; Sheffield Teaching Hospitals NHS Foundation Trust</p>
           </div>
         </div>
