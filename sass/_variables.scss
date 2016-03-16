@@ -1,4 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
+// classic classy font @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
+@import url(https://fonts.googleapis.com/css?family=McLaren);
 
 //== Colors
 //
@@ -39,7 +40,7 @@ $link-hover-decoration: underline;
 //
 //## Font, line-height, and color for body text, headings, and more.
 
-$font-family-sans-serif:  'Source Sans Pro', Helvetica, Arial, sans-serif;
+$font-family-sans-serif:  Helvetica, Arial, sans-serif; // 'Source Sans Pro' is using that
 $font-family-serif:       Georgia, "Times New Roman", Times, serif;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 $font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
@@ -62,7 +63,7 @@ $line-height-base:        1.846; // 20/14
 $line-height-computed:    floor(($font-size-base * $line-height-base)); // ~20px
 
 //** By default, this inherits from the `<body>`.
-$headings-font-family:    inherit;
+$headings-font-family:    'McLaren', cursive;
 $headings-font-weight:    700;
 $headings-line-height:    1.1;
 $headings-color:          #444;
@@ -842,7 +843,7 @@ $headings-small-color:        $gray-light;
 //** Blockquote small color
 $blockquote-small-color:      $gray-light;
 //** Blockquote font size
-$blockquote-font-size:        ($font-size-base * 1.25);
+$blockquote-font-size:        ($font-size-base * 1.00);
 //** Blockquote border color
 $blockquote-border-color:     $gray-lighter;
 //** Page header border color

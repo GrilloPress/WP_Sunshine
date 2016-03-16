@@ -7,7 +7,7 @@ Version: 0.1
 Author: Andrew Duckworth
 Author URI: https://github.com/GrilloPress
 */
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
+@import url(https://fonts.googleapis.com/css?family=McLaren);
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -1726,7 +1726,7 @@ html {
 
 /* line 27, ../../../../../.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_scaffolding.scss */
 body {
-  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 15px;
   line-height: 1.846;
   color: #282c37;
@@ -1840,7 +1840,7 @@ hr {
 /* line 9, ../../../../../.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_type.scss */
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: inherit;
+  font-family: "McLaren", cursive;
   font-weight: 700;
   line-height: 1.1;
   color: #444;
@@ -2231,7 +2231,7 @@ abbr[data-original-title] {
 blockquote {
   padding: 13.5px 27px;
   margin: 0 0 27px;
-  font-size: 18.75px;
+  font-size: 15px;
   border-left: 5px solid #eeeeee;
 }
 /* line 250, ../../../../../.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_type.scss */
@@ -7889,7 +7889,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -8027,7 +8027,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -8823,6 +8823,11 @@ h1, h2, h3, h4 {
   color: #2b90d9;
 }
 
+/* line 7, sass/_typography.scss */
+.navbar-brand {
+  font-family: 'McLaren', cursive;
+}
+
 /* line 1, sass/_navs.scss */
 .navbar-brand {
   font-size: 1.5em;
@@ -8842,7 +8847,7 @@ h1, h2, h3, h4 {
 
 /* line 3, sass/_sidebars.scss */
 #secondary {
-  background-color: #ededed;
+  background-color: #E7EAF1;
   padding: 0.8em;
   margin-top: 5.3em;
 }
