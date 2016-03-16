@@ -4,9 +4,16 @@ h1, h2, h3, h4 {
   
 }
 
-.navbar-brand {
+a.navbar-brand {
   
   font-family: 'McLaren', cursive;
+  
+  @media (max-width: $screen-sm) {
+    
+    font-size: 1.2em;
+    
+  }
+  
 }
 
 .archive-header {
