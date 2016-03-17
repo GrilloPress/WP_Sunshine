@@ -9013,3 +9013,9 @@ h3.widget-title {
   transform: translate3d(0, 0, 0);
   -moz-transform: none;
 }
+
+/* line 1, sass/_footers.scss */
+.site-footer {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
