@@ -4,9 +4,16 @@ h1, h2, h3, h4 {
   
 }
 
-a.navbar-brand {
+.page-header {
   
-  font-family: 'McLaren', cursive;
+  margin: 7em 0 2em;
+  
+}
+
+
+  
+
+a.navbar-brand {
   
   @media (max-width: $screen-sm) {
     
@@ -19,4 +26,5 @@ a.navbar-brand {
 .archive-header {
   
   border-bottom: none;
+  
 }
